@@ -4,3 +4,10 @@ flask_session/
 uploads/
 app - Copy.py
 *.pyc
+
+# Exclude unnecessary files
+*.sql
+*.pdf
+*.docx
+*.png
+*.md
