@@ -364,7 +364,9 @@ def query_route():
 
     return jsonify({"response": str(ai_response)})
 
+# Initialize agents when module is loaded (required for gunicorn/Render)
+initialize_agents()
+
 if __name__ == '__main__':
-    initialize_agents()
     port = int(os.getenv("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=True)
