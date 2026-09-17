@@ -1,0 +1,6 @@
+.env
+__pycache__/
+flask_session/
+uploads/
+app - Copy.py
+*.pyc

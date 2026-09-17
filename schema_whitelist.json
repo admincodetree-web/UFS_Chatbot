@@ -1,0 +1,226 @@
+{
+  "table": "UFS_CITIZEN_DATA",
+  "total_columns_found": 45,
+  "columns_removed_by_filter": [
+    "MOBIE_NUMBER_OTP_VERIFIED",
+    "SECRETARIAT_CODE"
+  ],
+  "safe_columns_count": 43,
+  "safe_columns": [
+    {
+      "column": "NAME",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "DATE_OF_BIRTH",
+      "type": "DATE",
+      "nullable": true
+    },
+    {
+      "column": "GENDER",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "HH_ID",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "CASTE_CATEGORY",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "CASTE",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "RELIGION",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "PURSUING_EDUCATION",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "CURRENT_EDUCATION_RUNNING",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "CURRENT_EDUCATION_SPECIFY",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "CURRENT_BRANCH",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "PLACE_OF_STUDY",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "MANAGEMENT",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "HIGHEST_EDUCATION",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "IS_DROPOUT",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "UNDERGONE_SKILL_TRAINING",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "SKILL_TRAINING_TYPE",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "SKILL_YEAR",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "SKILL_MONTH",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "OCCUPATION_EXPERIENCE",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "SELF_EMPLOYED",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "IS_MIGRATED_FOR_WORK",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "UPSKILL_INTERESTED",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "UPSKILL_OCCUPATION",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "UPSKILL_WORK",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "UPSKILL_WORKLOCATION",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "SURVEYED_BY",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "SURVEY_DONE_ON",
+      "type": "TIMESTAMP(6)",
+      "nullable": true
+    },
+    {
+      "column": "IS_CITIZEN_CONSISTENTLY_MAPPED",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "SELECT_REASON_INCONSISTENTLY_MAPPED",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "PERIOD_RESIDING_IN_AP",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "MARITAL_STATUS",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "FATHER_HUSBAND_NAME",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "HIGHEST_BRANCH",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "HIGHEST_YEAR",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "ADD_SUBEDUCATION",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "ADD_BRANCH",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "ADD_YEAR",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "FATHER_IN_SAME_HH",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "HUSBAND_NAME",
+      "type": "VARCHAR2",
+      "nullable": true
+    },
+    {
+      "column": "DISTRICT_ID",
+      "type": "NUMBER",
+      "nullable": true
+    },
+    {
+      "column": "MANDAL_ID",
+      "type": "NUMBER",
+      "nullable": true
+    },
+    {
+      "column": "CLUSTER_ID",
+      "type": "NUMBER",
+      "nullable": true
+    }
+  ]
+}

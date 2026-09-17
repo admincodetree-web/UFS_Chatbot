@@ -1,0 +1,32 @@
+Flask>=2.2,<3.0
+Flask-Cors
+Flask-Session
+python-dotenv
+SQLAlchemy
+PyMySQL
+pandas
+oracledb
+
+# File upload and document reading
+PyPDF2
+python-docx
+xlrd
+openpyxl
+pillow
+
+# LangChain & LangGraph Stack
+langchain
+langgraph
+langchain-community
+langchain-google-genai
+langchain-openrouter
+
+# OpenAI (optional fallback, safe version)
+openai<2.0.0
+
+# WSGI Production Server
+gunicorn
+
+# MCP (Model Context Protocol)
+mcp<2.0.0
+langchain-mcp-adapters
