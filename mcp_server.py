@@ -170,9 +170,14 @@ def run_readonly_sql_query(query: str) -> str:
         if re.search(rf"\b{kw}\b", stripped):
             return json.dumps({"error": f"Blocked: '{kw}' operations are not allowed."})
 
+    # Remove trailing semicolon (Oracle Python driver forbids it)
+    clean_query = query.strip()
+    if clean_query.endswith(";"):
+        clean_query = clean_query[:-1]
+
     try:
-        print(f"\n--- [MCP SQL EXECUTED] ---\n{query}\n--------------------------", file=sys.stderr, flush=True)
-        rows = _run_query(query)
+        print(f"\n--- [MCP SQL EXECUTED] ---\n{clean_query}\n--------------------------", file=sys.stderr, flush=True)
+        rows = _run_query(clean_query)
         if len(rows) > 100:
             rows = rows[:100]
             rows.append({"_note": "Results truncated to 100 rows."})
